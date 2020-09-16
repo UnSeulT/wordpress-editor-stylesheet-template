@@ -116,7 +116,7 @@ code, kbd, tt, var {
 	margin-bottom: 2rem;
 	margin-top: 2rem;
 	padding: .4rem .8rem;
-	border-left: .35rem solid blue;
+	border-left: .35rem solid #1565C0;
 	color: #666;
 	font-style: italic;
 }
@@ -135,7 +135,7 @@ article a,
 p.feature-credit a,
 p.feature-credit a:visited,
 .menu-items a {
-	color: blue;
+	color: #1565C0;
   text-decoration: none;
 }
 
@@ -163,7 +163,7 @@ a:hover, a:active {
 .button, .button:visited {
 	padding: .8em .8em;
 	margin: 0 .5em 0 0;
-	background: blue;
+	background: #1565C0;
 	border-radius: 4px;
 	color: #fff;
 	font-weight: bold;
