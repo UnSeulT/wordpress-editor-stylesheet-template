@@ -6,12 +6,12 @@ This is a template for a stylesheet that allows WordPress users to use a custom 
 
 /* Set global width for all Gutenberg blocks - this should be the same as your article width */
  .wp-block {
-   max-width:
+   max-width: 640px;
  }
 
 /* Main typography elements */
 
-/* Set font for headers */
+/* Sans Serif font for headers */
 .editor-block-list__layout .editor-block-list__block,
 .editor-post-title__block .editor-post-title__input,
 h1.rich-text.block-editor-rich-text__editable,
@@ -26,7 +26,7 @@ table {
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Set font for body text */
+/* Serif font for body text */
 .editor-block-list__layout .editor-block-list__block p,
 .rich-text.block-editor-rich-text__editable.wp-block-paragraph,
 .block-editor-block-list__layout.is-root-container,
@@ -35,12 +35,12 @@ ol {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
-/* Set monospace (code) font */
+/* Monospace font for code */
 pre, code, kbd, tt, var {
 	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
-/* Format article images */
+/* Format post images */
 .wp-block-image img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4px;
@@ -53,13 +53,6 @@ figcaption {
 	color: #666;
 	font-size: 0.9rem;
 	text-align: center;
-}
-
-/* Formats the feature image */
-.attachment-post-thumbnail {
-    width: 100%;
-    margin: 1em 0 1.5em 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*--------------------------------------------------------------
@@ -158,25 +151,4 @@ a:focus {
 
 a:hover, a:active {
 	outline: 0;
-}
-
-.button, .button:visited {
-	padding: .8em .8em;
-	margin: 0 .5em 0 0;
-	background: #1565C0;
-	border-radius: 4px;
-	color: #fff;
-	font-weight: bold;
-	transition: 0.4s;
-	line-height: 3rem;
-	white-space: nowrap;
-}
-
-.button:hover, .button:active, .button:focus {
-	background: #000;
-	color: #fff;
-}
-
-a.button {
-	font-weight: normal;
 }
