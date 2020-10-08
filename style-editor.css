@@ -152,3 +152,16 @@ a:focus {
 a:hover, a:active {
 	outline: 0;
 }
+
+/* Standard WordPress button block */
+.rich-text.block-editor-rich-text__editable.wp-block-button__link,
+.rich-text.block-editor-rich-text__editable.wp-block-button__link:visited {
+	background: red;
+	color: white;
+}
+
+.rich-text.block-editor-rich-text__editable.wp-block-button__link:hover,
+.rich-text.block-editor-rich-text__editable.wp-block-button__link:focus,
+.rich-text.block-editor-rich-text__editable.wp-block-button__link:active {
+	background: #333;
+}
